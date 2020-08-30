@@ -17,4 +17,6 @@ cp -r `dirname "$0"`/utils lib/utils
 rm lib/main.dart 
 cp `dirname "$0"`/main.dart lib
 
+cp `dirname "$0"`/analysis_options.yaml .
+
 echo "Project Initialized Successfully"
